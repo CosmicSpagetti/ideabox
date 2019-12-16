@@ -1,17 +1,10 @@
-// import React from 'react';
-// import './Ideas.css';
-
-// const Ideas = () => {
-//   return (
-//     <h2>Ideas go here!</h2>
-//   )
-// }
-
-// export default Ideas;
-
 import React from 'react';
 import './Ideas.css';
 
-const Ideas = () => {
-  return 
+const Ideas = (props) => {
+  return (
+    <h2>Hello, {props.name}!</h2>
+  )
 }
+
+export default Ideas
